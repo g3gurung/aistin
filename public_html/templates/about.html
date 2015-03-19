@@ -1,0 +1,9 @@
+<div class="container">
+    <div class="row text-center">
+        <div class="col-md-4 about-box" ng-class="{clearfix: 0===($index%3)}" ng-repeat="item in about">
+            <img src="{{item.img_src}}" alt="{{item.img_alt}}"/>
+            <h4 class="about-heading">{{item.title}}</h4>
+            <p class="about-discription">{{item.description}}</p>
+        </div>
+    </div>
+</div>

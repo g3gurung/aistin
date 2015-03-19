@@ -1,0 +1,38 @@
+[
+    {
+        "img_src": "images/about/battery.png",
+        "img_alt": "Ultra long battery life",
+        "title": "Ultra long battery life",
+        "description": "Intelligent peripheral power management. Power down processor, sensors and radio transmitters separately as needed. Current consumption down to microampers and below. Run months or even years without changing battery."
+    },
+    {
+        "img_src": "images/about/numbers.png",
+        "img_alt": "Multi purpose",
+        "title": "Multi purpose",
+        "description": "A whole family of modular boards makes possible to build a system for your specific pupose, without compromising performance. Wide range of accurate sensors, three different MCUs and four radios, including Bluetooth LE and 868 MHz!"
+    },
+    {
+        "img_src": "images/about/faces.png",
+        "img_alt": "Arduino Compatible",
+        "title": "Arduino Compatible",
+        "description": "Use the Arduino IDE for programming in C++ as for any other Arduino board. Examples available to make use of the Aistin sensor boards and radios. Meet the Arduino community with Aistin!"
+    },
+    {
+        "img_src": "images/about/smiley.png",
+        "img_alt": "Easy to use",
+        "title": "Easy to use",
+        "description": "Preloaded example applications let you enjoy instantly. And to proceed with your own project there is comprehensive documentation and datasheets available, with example codes."
+    },
+    {
+        "img_src": "images/about/puzzle.png",
+        "img_alt": "Modular but compact",
+        "title": "Modular but compact",
+        "description": "Very tiny size brings you from desktop prototypes into wrist prototypes! Even when you need several add-on boards the system does not get clums, but stays compact and robust."
+    },
+    {
+        "img_src": "images/about/tools.png",
+        "img_alt": "Add your own cover",
+        "title": "Add your own cover",
+        "description": "To finish your design, 3D cover models are provided. Download and adjust to meet your own taste! There are several affordable print services out there with a wide range of different materials. Basic models are also provided ready-made."
+    }
+]

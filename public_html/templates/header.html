@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="intro-text">
+        <div class="intro-lead-in">{{header.main_heading}}</div>
+        <div class="intro-heading">{{header.sub_heading}}</div>
+        <form name="subscribeForm" class="form-inline">
+            <div class="form-group email-subscriber">
+                <label class="sr-only" for="emailSubscription">{{header.subscription_txt}}</label>
+                <div class="input-group email-subscriber-group-input">
+                    <input type="email" ng-model="subscription.email" class="form-control" id="emailSubscription" placeholder="send.me@email.when product is available (no spam!)" required />
+                    <div class="input-group-addon"><button class="btn btn-xl email-subscriber-btn" ng-disabled="subscribeForm.$invalid" ng-click="subscribe()">{{header.subcribe_btn}}</button></div>
+                </div>
+            </div>
+        </form>
+        <div class="alert alert-success ng-hide" ng-show="subscription.success">
+            <a href="" ng-click="closeSubscriptionPopup()" class="close">&times;</a>
+            <strong>Success!</strong> {{subscription.response}}
+        </div>
+        <div class="alert alert-danger ng-hide" ng-show="subscription.fail">
+            <a href="" ng-click="closeSubscriptionPopup()" class="close">&times;</a>
+            <strong>Error!</strong> {{subscription.response}}
+        </div>
+    </div>
+</div>
+
+<div class="intro-bottom">
+    <div class="intro-bottom-content intro-bottom-content-left" >
+        <div class="intro-bottom-content-text">Products are based on <a href="https://www.iprotoxi.fi/index.php/aistin-bus24" target="_blank"><u>AISTIN BUS24</u></a> standard</div>
+    </div>
+    <div class="intro-bottom-content intro-bottom-content-right" >
+        <img src="{{header.aistin_logo}}" alt="Aistin Logo"/>
+    </div>
+</div>

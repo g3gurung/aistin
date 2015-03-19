@@ -1,0 +1,13 @@
+{
+    "heading": "Partners",
+    "partner_logos": [
+        {"img_src": "images/partners/tigal.png", "colored_img_Src":"images/partners/colored_tigal.png", "href": "https://www.tigal.com/"},
+        {"img_src": "images/partners/robomaa.png", "colored_img_Src":"images/partners/colored_robomaa.png", "href": "http://robomaa.fi/"},
+        {"img_src": "images/partners/iqrf.png", "colored_img_Src":"images/partners/colored_iqrf.png", "href": "http://www.iqrf.org/"},
+        {"img_src": "images/partners/ruuvi.png", "colored_img_Src":"images/partners/colored_ruuvi.png", "href": "http://www.ruuvi.cc/"},
+        {"img_src": "images/partners/mekiwi.png", "colored_img_Src":"images/partners/colored_mekiwi.png", "href": "http://www.mekiwi.org"},
+        {"img_src": "images/partners/pink_moose.png", "colored_img_Src":"images/partners/colored_pinkmoose.png", "href": "http://www.pinkmoose.fi/"},
+        {"img_src": "images/partners/pohjonen.png", "colored_img_Src":"images/partners/pohjonen.png", "href": "http://pohjonenproductions.com/"},
+        {"img_src": "images/partners/hf_logo.jpg", "colored_img_Src":"images/partners/colored_hf_logo.png", "href": "http://www.hi-flying.com/"}
+    ]
+}

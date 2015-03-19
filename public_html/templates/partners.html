@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading">{{partners.heading}}</h2>
+        </div>
+    </div>
+    <div class="partner-logo-container text-center">
+        <a href="{{logo.href}}" ng-repeat="logo in partners.partner_logos" ng-mouseover="logoHoverIn()" ng-mouseleave="logoHoverOut()">
+            <img ng-show="bwShow" src="{{logo.img_src}}" class="img-responsive img-centered" alt="{{logo.href}}">
+            <img ng-show="colorShow" src="{{logo.colored_img_Src}}" class="img-responsive img-centered" alt="{{logo.href}}">
+        </a>
+    </div>
+</div>
